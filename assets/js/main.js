@@ -24,12 +24,12 @@ const scrollRightButton = document.querySelector('.scroll-right');
 
 const scrollAmount = 300;
 
-// Scroll left when the left button is clicked
+
 scrollLeftButton.addEventListener('click', () => {
     carousel.scrollLeft -= scrollAmount;
 });
 
-// Scroll right when the right button is clicked
+
 scrollRightButton.addEventListener('click', () => {
     carousel.scrollLeft += scrollAmount;
 });
